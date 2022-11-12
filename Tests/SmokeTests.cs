@@ -39,8 +39,8 @@ namespace JenkinsPipeline
         [Test]
         public void EvenIndexNumbersOfArrayTest()
         {
-            var testDataNumbers = new int[] { 1, 2, 3, 4, 5 };
-            var expectedData = new int[] { 3, 5 };
+            var testDataNumbers = new int[] { 1, 3, 3, 4, 3 };
+            var expectedData = new int[] { 3, 3 };
             var actualData = ExecuteManager.GetArrayOfEvenIndexNumbers(testDataNumbers);
 
             Assert.That(actualData, Is.EqualTo(expectedData));
