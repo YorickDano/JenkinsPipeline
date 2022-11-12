@@ -1,5 +1,4 @@
-﻿
-namespace Executer
+﻿namespace Executer
 {
     public static class ExecuteManager
     {
