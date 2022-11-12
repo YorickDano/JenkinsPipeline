@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\JenkinsPipeline\JenkinsPipeline.csproj" />
+    <ProjectReference Include="..\JenkinsPipeline\Executer.csproj" />
   </ItemGroup>
 
   <ItemGroup>
